@@ -7,6 +7,13 @@
     "clerk": {
       "type": "http",
       "url": "https://mcp.clerk.com/mcp"
+    },
+    "vercel": {
+      "url": "https://mcp.vercel.com"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
     }
   }
 }
